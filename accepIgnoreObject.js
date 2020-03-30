@@ -1,8 +1,8 @@
-const ObjectFromEntries = (value) => value
-    .reduce((acc, [key, value]) => ({
-      ...acc,
-      [key]: value
-    }), {}) // O repl não suporta Object.fromEntries
+// const ObjectFromEntries = (value) => value
+//     .reduce((acc, [key, value]) => ({
+//       ...acc,
+//       [key]: value
+//     }), {}) // O repl não suporta Object.fromEntries
 
 const ObjectFromEntries = (value) => Object.fromEntries(value)
 
